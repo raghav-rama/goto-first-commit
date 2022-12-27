@@ -6,7 +6,7 @@
 
 for (i = 0; i < 100; ++i) {
     setTimeout (
-        function() {
+        () => {
             if(!document.querySelectorAll(".paginate-container .btn")[1].disabled) {
                 document.querySelectorAll(".paginate-container .btn")[1].click()
             }
